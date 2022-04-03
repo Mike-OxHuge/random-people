@@ -1,0 +1,11 @@
+{
+  "name": "random-people",
+  "version": "1.0.0",
+  "description": "generates an array of random people: name, surname, occupation, photo, age and location. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mike K",
+  "license": "ISC"
+}
