@@ -1,6 +1,6 @@
 {
 	"name": "randomized-people",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"description": "generates array of random people",
 	"main": "index.js",
 	"type": "module",
@@ -8,5 +8,28 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Mike K",
-	"license": "ISC"
+	"license": "ISC",
+	"keywords": [
+		"people",
+		"random",
+		"generator",
+		"generate",
+		"randomize",
+		"randomize-people",
+		"random-people",
+		"random-person",
+		"random-person-generator",
+		"random-person-generator-js",
+		"random-person-generator-node",
+		"random-person-generator-nodejs",
+		"random-person-generator-npm",
+		"random-person-generator-npmjs",
+		"random-person-generator-npmjs-module",
+		"random-person-generator-npmjs-module-js",
+		"random-person-generator-npmjs-module-node",
+		"random-person-generator-npmjs-module-nodejs",
+		"random-person-generator-npmjs-module-nodejs-module",
+		"random-person-generator-npmjs-module-nodejs-module-js",
+		"random-person-generator-npmjs-module-nodejs-module-node"
+	]
 }

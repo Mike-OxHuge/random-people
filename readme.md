@@ -56,3 +56,9 @@ console.log(users);
 ]
 
 ```
+
+# Source code:
+
+https://github.com/Mike-OxHuge/random-people
+
+Feel free to collaborate!

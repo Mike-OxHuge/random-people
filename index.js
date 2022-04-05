@@ -33,7 +33,6 @@ export default function (params) {
 			user.firstName = getRandomName(gender);
 			user.lastName = surnames[rnd(surnames.length)];
 			user.username = user.firstName[0] + "." + user.lastName;
-			// figure this thing out
 			if (withPhoto)
 				user.photo = `https://ui-avatars.com/api/?name=${user.firstName}+${user.lastName}`;
 			users.push(user);
@@ -42,7 +41,7 @@ export default function (params) {
 		users.push({
 			firstName: "Error occured",
 			lastName: "Please check console",
-			username: "Error occured",
+			username: e.message,
 			photo: `https://ui-avatars.com/api/?name=Error+Occured}`,
 		});
 		console.error(e.message);
