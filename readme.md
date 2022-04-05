@@ -7,9 +7,9 @@ import people from "randomized-people"; // import package
 
 // set options
 const options = {
-	amount: 5, // always number, or string convertible to number
-	gender: "rnd", // 'm' or 'f' or 'rnd', case insensitive
-	withPhoto: true, // true or false
+	amount: 5, // always number, or string convertible to number, required
+	gender: "rnd", // 'm' or 'f' or 'rnd', case insensitive, required
+	withPhoto: true, // Boolean true or false, not required
 };
 
 // declare variable and assign value to it
